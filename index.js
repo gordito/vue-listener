@@ -62,7 +62,6 @@ class Listener {
     if (self['listener_state'][name]) {
       for (const identifiers in self['listener_state'][name]) {
         for (const listener in self['listener_state'][name][identifiers]) {
-          if ()
           self['listener_state'][name][identifiers][listener][name] = val;
           if (force && typeof self['listener_state'][name][identifiers][listener].$forceUpdate === 'function') {
             self['listener_state'][name][identifiers][listener].$forceUpdate();
