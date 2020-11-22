@@ -10,6 +10,17 @@
     "type": "git",
     "url": "https://github.com/gordito/vue-listener.git"
   },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "mvc",
+    "model",
+    "controller",
+    "listener",
+    "event",
+    "event listener",
+    "vuex"
+  ],
   "author": "Robin Kochauf <robin@gordito.se> (https://gordito.se/)",
   "license": "MIT"
 }
