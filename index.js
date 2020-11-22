@@ -1,4 +1,4 @@
-class Listener {
+class VueListener {
   Listen(names, target, identifier = 'default') {
     const self = this;
     if (!self['listener_state']) {
@@ -84,4 +84,4 @@ class Listener {
  * @public
  */
 
-module.exports = Listener
+module.exports = VueListener;

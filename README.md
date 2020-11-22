@@ -1,8 +1,8 @@
-# Vue JS Event Listner
+# Vue JS Event Listener
 
-Vue-Listener is an MVC Model Event Listener for VueJS. For all of you that want to use VueJS as a traditional MVC and skip the hassle of VueX and states. This is usually an issue when working with multiple sockets and API:s, streaming and updates >1000 events per second.
+VueListener is an MVC Model Event Listener for VueJS. For all of you that want to use VueJS as a traditional MVC and skip the hassle of VueX and states. This is usually an issue when working with multiple sockets and API:s, streaming and updates >1000 events per second.
 
-If your used to working with MVC and have a model you donät want to rewrite for a specific Vue application, this plugin will make your life a lot easier.
+If you're used to working with MVC and have a model you don't want to rewrite for a specific Vue application, this plugin will make your life a lot easier.
 
 ## Install and Use
 
@@ -15,8 +15,8 @@ npm i -s vue-listener
 and use it on you model classes like this:
 
 ```
-import Listener from 'vue-listener'
-class MyModel extends Listener { }
+import VueListener from 'vue-listener'
+class MyModel extends VueListener { }
 ```
 
 ## Example
@@ -24,9 +24,9 @@ class MyModel extends Listener { }
 Build your data model in Classes, expanding the vue-listener.
 
 ```
-import Listener from 'vue-listener';
+import VueListener from 'vue-listener';
 
-class MyModel extends Listener {
+class MyModel extends VueListener {
   constructor() {
     super();
     this.name = 'name';
@@ -67,6 +67,10 @@ export default {
 
 Now when you update the MyModel class, the Component is automatically updated.
 
+**There is also an example on CodePen Example**
+
+https://codepen.io/gordito/pen/yLJdrOm
+
 ## Support
 
 The current version of Vue Listener supports first level values of `String`, `Number`, `Boolean` and `Array`.
@@ -95,7 +99,7 @@ This is triggered when you update a variable in your model. If you want to trigg
 
 ## Roadmap
 
-Feel free to contibute on the following roadmap with pull requests.
+Feel free to contribute on the following roadmap with pull requests.
 
 - Adding support for Vue Component methods to be triggered when a value is updated.
 - Automated testing of functions and edge cases.
