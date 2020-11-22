@@ -15,8 +15,8 @@ npm i -s vue-listener
 and use it on you model classes like this:
 
 ```
-import Listener from 'vue-listener'
-class MyModel extends Listener { }
+import VueListener from 'vue-listener'
+class MyModel extends VueListener { }
 ```
 
 ## Example
@@ -24,9 +24,9 @@ class MyModel extends Listener { }
 Build your data model in Classes, expanding the vue-listener.
 
 ```
-import Listener from 'vue-listener';
+import VueListener from 'vue-listener';
 
-class MyModel extends Listener {
+class MyModel extends VueListener {
   constructor() {
     super();
     this.name = 'name';
