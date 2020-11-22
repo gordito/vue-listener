@@ -67,6 +67,10 @@ export default {
 
 Now when you update the MyModel class, the Component is automatically updated.
 
+**There is also an example on CodePen Example**
+
+https://codepen.io/gordito/pen/yLJdrOm
+
 ## Support
 
 The current version of Vue Listener supports first level values of `String`, `Number`, `Boolean` and `Array`.
